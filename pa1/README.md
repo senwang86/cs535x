@@ -1,0 +1,2 @@
+# COMS 535 Programming Assigment 1 Bloom Filter
+We have design and implement a Bloom Filter for searching a collection of documents. For the hash functions, we implement a random hash function and a deterministic hash function, in where the FNV is used. Given a folder of documents, we first build the Bloom Filter by providing the setSize and bitPerELement, then each document is added into the Bloom Filter. The searching function returns a True or False.
